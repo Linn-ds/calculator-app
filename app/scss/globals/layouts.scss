@@ -1,5 +1,17 @@
 @use "../util" as *;
-.container{
-    max-width: rem(1240);
-    margin: 0 auto;
+.container {
+  max-width: rem(1240);
+  margin: 0 auto;
+}
+
+.authour {
+  text-align: center;
+  background-color: #181f32;
+  color: #fff;
+  bottom: rem(5);
+  padding: rem(20);
+
+  a {
+    color: blanchedalmond;
+  }
 }

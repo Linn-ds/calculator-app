@@ -57,7 +57,7 @@
   transition: all 150ms ease-in-out;
 }
 .keybox__key:hover {
-  box-shadow: 2px 5px 0px 0px rgba(108, 190, 238, 0.993);
+  box-shadow: 2px 5px 0px 0px #53628a;
   font-weight: 600;
 }
 .keybox__key--reset {
@@ -85,5 +85,16 @@ body {
 .container {
   max-width: 77.5rem;
   margin: 0 auto;
+}
+
+.authour {
+  text-align: center;
+  background-color: #181f32;
+  color: #fff;
+  bottom: 0.3125rem;
+  padding: 1.25rem;
+}
+.authour a {
+  color: blanchedalmond;
 }
 /*# sourceMappingURL=style.css.map */
