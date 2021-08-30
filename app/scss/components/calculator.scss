@@ -1,0 +1,19 @@
+@use '../util' as *;
+.calculator {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__main {
+    width: 80%;
+    background-color: #3b4664;
+    @include breakpoint(medium) {
+      width: 55%;
+    }
+    @include breakpoint(large) {
+      width: 40%;
+    }
+  }
+}
