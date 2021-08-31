@@ -3,10 +3,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: rem(25);
+  gap: rem(5);
   padding: rem(20);
   background-color: #181f32;
   border-radius: rem(10);
+
+  @include breakpoint(medium) {
+    gap: rem(20);
+  }
 
   &__key {
     background-color: #eae3db;
